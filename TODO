@@ -1,0 +1,45 @@
+
+
+TODO:
+
+
+AFTER V2 migration
+- recheck the entire code
+- USE power of two textures for blocks (VERY IMPORTANT, then re clone cocos2d because I commented an assert somwhere)
+
+GUIDELINE
+
+OK 2: Find a good way to check if a level has been succeded
+OK 2: add coredata to save levels data object but used serialization, more performant for the amount of data
+OK 3: Manage unlocked levels and locked levels
+
+4: Add the statics blocks + add the rolling weapon
+5: Think about a good graphic theme for blocks
+6: add the option of adding a place where the player can't draw
+7: start to build real levels
+
+8: create song for the game
+
+TODO NEXT
+
+- complete the star system, modify timeline layer so it shows star for each level:
+    (3 stars to catch / level + one star granted when level suceeded)
+
+- timeline layer as a singleton class and update when a level is succeded !
+- manage wall collision with blocks
+
+NOTES
+- Smooth the line in "real time" (maybe every 10 poins/ need to be tested) //done need adjustment
+- top time line layer:
+   redo the retina arrow
+
+DETAILS
+- bug, when only one touch in bomber path
+- add a max path length to avoid people playing by drawing on the screen and degrading performances
+- use PVR for images instead of jpg/png
+- optimize the code in gametimeline to call the replace scene quicker
+- check if possibilities to optimize code in touch layer touch moved
+- build the weapon layer in the constructor and not in the didFinishTransition
+- override set position in bubble layer so it doesn go off screen.
+
+
