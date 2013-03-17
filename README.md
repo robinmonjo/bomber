@@ -20,10 +20,10 @@ This game is built using the [cocos2d](http://www.cocos2d-iphone.org/) for iPhon
 
 At this point you should have
 
---root
-	--bomber
-	--cocos2d-iphone
-	--deps
+--root <br/>
+	--bomber<br/>
+	--cocos2d-iphone<br/>
+	--deps<br/>
 
 Create a symbolic link of *cocos2d-iphone* within the *deps* folder
 
@@ -31,10 +31,10 @@ ln -s cocos2d-iphone deps/
 
 At this point you should have this
 
---root
-	--bomber
-	--cocos2d-iphone
-	--deps
-		--cocos2d-iphone #symlink
+--root<br/>
+	--bomber<br/>
+	--cocos2d-iphone<br/>
+	--deps<br/>
+		--cocos2d-iphone  <symlink><br/>
 
 Open the xcode project (in the *bomber* folder). Set the build target to *Bomber*, then build and run.
