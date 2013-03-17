@@ -12,18 +12,18 @@ This game is built using the [cocos2d](http://www.cocos2d-iphone.org/) for iPhon
 
 # Set up the dev environment
 
-*Create a root directory. Clone the repository inside this root directory. This will create a folder *bomber*.
+* Create a root directory. Clone the repository inside this root directory. This will create a folder *bomber*.
 
-*Clone the cocos2d [repository](https://github.com/cocos2d/cocos2d-iphone). This will create a *cocos2d-iphone* folder.
+* Clone the cocos2d [repository](https://github.com/cocos2d/cocos2d-iphone). This will create a *cocos2d-iphone* folder.
 
-*Create a folder named *deps*
+* Create a folder named *deps*
 
 At this point you should have
 
---root <br/>
-	--bomber<br/>
-	--cocos2d-iphone<br/>
-	--deps<br/>
+* --root <br/>
+    * --bomber<br/>
+    * --cocos2d-iphone<br/>
+    * --deps<br/>
 
 Create a symbolic link of *cocos2d-iphone* within the *deps* folder
 
@@ -31,10 +31,10 @@ ln -s cocos2d-iphone deps/
 
 At this point you should have this
 
---root<br/>
-	--bomber<br/>
-	--cocos2d-iphone<br/>
-	--deps<br/>
-		--cocos2d-iphone  <symlink><br/>
+* --root<br/>
+    * --bomber<br/>
+    * --cocos2d-iphone<br/>
+    * --deps<br/>
+         * --cocos2d-iphone  <symlink><br/>
 
 Open the xcode project (in the *bomber* folder). Set the build target to *Bomber*, then build and run.
