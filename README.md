@@ -14,11 +14,11 @@ This game is built using the [cocos2d](http://www.cocos2d-iphone.org/) for iPhon
 
 ### Set up the dev environment
 
-Open up a terminal and `cd` to the root folder that will contain the project.
-Clone the repository `git clone git@github.com:robinmonjo/bomber.git`
-`cd` into the cloned directory `cd bomber`
-Launch the setup script `./setup.sh` (if it doesn't launch make it executable: `chmod +x setup.sh`)
-Wait and xcode will open it for you. Set the build target to bomber and you're good to go
+* Open up a terminal and `cd` to the root folder that will contain the project.
+* Clone the repository `git clone git@github.com:robinmonjo/bomber.git`
+* `cd` into the cloned directory `cd bomber`
+* Launch the setup script `./setup.sh` (if it doesn't launch make it executable: `chmod +x setup.sh`)
+* Wait and xcode will open it for you. Set the build target to bomber and you're good to go
 
 ### Manually set up the dev environment
 
