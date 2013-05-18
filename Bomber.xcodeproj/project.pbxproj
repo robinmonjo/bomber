@@ -145,7 +145,6 @@
 		3B888130155BB6EE0041D620 /* SmokeParticle.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B88812F155BB6EE0041D620 /* SmokeParticle.plist */; };
 		3B88C4AE1556C76600BFFB74 /* kamea_streak-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B88C4AD1556C76600BFFB74 /* kamea_streak-hd.png */; };
 		3B88C4B01556D20C00BFFB74 /* KameaParticle.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B88C4AF1556D20C00BFFB74 /* KameaParticle.plist */; };
-		3B8B70A514E19BD20064F5F9 /* TODO in Resources */ = {isa = PBXBuildFile; fileRef = 3B8B70A414E19BD20064F5F9 /* TODO */; };
 		3B8B713214E1E6780064F5F9 /* bg_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B8B713014E1E6780064F5F9 /* bg_1.jpg */; };
 		3B8B713314E1E6780064F5F9 /* bg_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B8B713114E1E6780064F5F9 /* bg_3.jpg */; };
 		3B8B713614E1E6F00064F5F9 /* bg_1-hd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B8B713514E1E6F00064F5F9 /* bg_1-hd.jpg */; };
@@ -793,7 +792,6 @@
 		3B88812F155BB6EE0041D620 /* SmokeParticle.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SmokeParticle.plist; sourceTree = "<group>"; };
 		3B88C4AD1556C76600BFFB74 /* kamea_streak-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kamea_streak-hd.png"; sourceTree = "<group>"; };
 		3B88C4AF1556D20C00BFFB74 /* KameaParticle.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KameaParticle.plist; sourceTree = "<group>"; };
-		3B8B70A414E19BD20064F5F9 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
 		3B8B713014E1E6780064F5F9 /* bg_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_1.jpg; sourceTree = "<group>"; };
 		3B8B713114E1E6780064F5F9 /* bg_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_3.jpg; sourceTree = "<group>"; };
 		3B8B713514E1E6F00064F5F9 /* bg_1-hd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg_1-hd.jpg"; sourceTree = "<group>"; };
@@ -906,7 +904,6 @@
 			isa = PBXGroup;
 			children = (
 				3BC2212115E6C83A0029D2F8 /* cocos2d-ios.xcodeproj */,
-				3B8B70A414E19BD20064F5F9 /* TODO */,
 				3B01629C1472371600223BE3 /* Bomber */,
 				3B0162971472371600223BE3 /* Frameworks */,
 				3B0162951472371600223BE3 /* Products */,
@@ -1891,7 +1888,6 @@
 				3BF3B92C14BD52530026DB33 /* w_bg-hd.png in Resources */,
 				3B9799E014BE2F350071C833 /* bg_transition-hd.jpg in Resources */,
 				3B291D7014D6015700DD6F90 /* fire.png in Resources */,
-				3B8B70A514E19BD20064F5F9 /* TODO in Resources */,
 				3B8B713214E1E6780064F5F9 /* bg_1.jpg in Resources */,
 				3B8B713314E1E6780064F5F9 /* bg_3.jpg in Resources */,
 				3B8B713614E1E6F00064F5F9 /* bg_1-hd.jpg in Resources */,
