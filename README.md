@@ -1,5 +1,5 @@
 
-# Game Description
+### Game Description
 
 Bomber is a 2D iOS game. The user plays with a character, lets call him Bomber. The goal is to draw a path that will allow Bomber to destroy all the targets, usin the available weapons.
 The level is succeeded if all targets are killed and if Bomber has joined the goal end-point.
@@ -8,11 +8,19 @@ Check [this video](http://www.youtube.com/watch?v=c45Yr4zqJw0) !!
 
 It shows a sample of the game. There is a lot more to discover such as a cool list of weapons. If you want to see by yourself, go ahead and download the sources.
 
-# Technical description
+### Technical description
 
 This game is built using the [cocos2d](http://www.cocos2d-iphone.org/) for iPhone library. All the physics is managed by [Chipmunk](http://chipmunk-physics.net/) physic engine (the free version, included in cocos2d).
 
-# Set up the dev environment
+### Set up the dev environment
+
+Open up a terminal and `cd` to the root folder that will contain the project.
+Clone the repository `git clone git@github.com:robinmonjo/bomber.git`
+`cd` into the cloned directory `cd bomber`
+Launch the setup script `./setup.sh` (if it doesn't launch make it executable: `chmod +x setup.sh`)
+Wait and xcode will open it for you. Set the build target to bomber and you're good to go
+
+### Manually set up the dev environment
 
 * Create a root directory. Clone the repository inside this root directory. This will create a folder *bomber*.
 
